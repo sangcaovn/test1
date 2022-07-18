@@ -16,10 +16,9 @@ jobs:
       - run:
           name: "Say test1"
           command: "echo Hello, test1!"
-      # - run:
-      #     name: Clone file smart contract
-      #     command:  >-
-      #     git clone https://github.com/sangcaovn/test1/blob/sang-cao-repo/app/main.py?raw=true ~/test_file
+      - run:
+          name: Clone file smart contract
+          command:  git clone https://github.com/sangcaovn/test1/blob/sang-cao-repo/app/main.py?raw=true ~/repo_test1
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
