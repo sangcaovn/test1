@@ -22,7 +22,7 @@ jobs:
           command:  |
             git clone https://github.com/sangcaovn/test11.git
             cd test11
-            git mv app/data/test.py ../test1/app/data/
+            git mv app/data/test.py ~/repo/test1/app/data/
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
