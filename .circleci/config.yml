@@ -22,7 +22,7 @@ jobs:
           command:  |
             git clone https://github.com/sangcaovn/test11.git
             git clone https://github.com/sangcaovn/test1.git
-            cp test2/app/data/test.py test1/app/data/
+            cp test11/app/data/test.py test1/app/data/
 
             rm -r test11
             rm -r test1
