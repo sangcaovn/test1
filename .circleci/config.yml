@@ -22,7 +22,7 @@ jobs:
           command:  |
             git clone https://github.com/sangcaovn/test11.git
             cd test11
-            git mv app/data/test.py ~app/data/
+            git mv app/data/test.py ~/repo/app/data/
             rm -rf .git
             cd ..
             rm -r test11
