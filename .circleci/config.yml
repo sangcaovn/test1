@@ -21,10 +21,10 @@ jobs:
           # command:  git clone https://github.com/sangcaovn/test1.git README.md ~/repo_test1
           command:  |
             git clone https://github.com/sangcaovn/test11.git
+            git mv test11/app/data/test.py app/data/
             cd test11
             rm -rf .git
             cd ..
-            cp test11/app/data/test.py app/data/test.py
             rm -r test11
             cd app
             cd data
