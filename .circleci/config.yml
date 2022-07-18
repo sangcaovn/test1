@@ -26,8 +26,6 @@ jobs:
             cd ..
             cp test11/app/data/test.py app/data
             rm -r test11
-            cd app
-            cd data
             ls
 
 # Invoke jobs via workflows
