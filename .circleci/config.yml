@@ -22,6 +22,7 @@ jobs:
           command:  |
             git clone https://github.com/sangcaovn/test11.git
             pwd
+            cd repo
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
