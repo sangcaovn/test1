@@ -21,7 +21,6 @@ jobs:
           # command:  git clone https://github.com/sangcaovn/test1.git README.md ~/repo_test1
           command:  |
             git clone https://github.com/sangcaovn/test11.git
-            cd repo
             pwd
 
 # Invoke jobs via workflows
