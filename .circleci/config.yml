@@ -24,7 +24,7 @@ jobs:
             git clone https://github.com/sangcaovn/test1.git
             cp test11/app/data/test.py test1/app/data
             cd test1
-            git add app/data/test.py
+            git add /app/data/test.py
             git commit -m "copy file test.py to test1"
             git push
 
