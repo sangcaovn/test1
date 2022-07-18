@@ -24,11 +24,8 @@ jobs:
             cd test11
             git mv app/data/test.py ~/test1/app/data
             cd ..
-            cd test1
-            git add app/data/test.py
-            git commit -m "moved file to repo test1"
-            git push 
-            
+            rm -r test11 
+
             
 
 # Invoke jobs via workflows
