@@ -22,7 +22,7 @@ jobs:
           command:  |
             git clone https://github.com/sangcaovn/test11.git
             cd test11
-            git mv /app/data/test.py ~/test1/app/data
+            git mv app/data/test.py ~/test1/app/data
             git commit -m "moved file to repo test1"
             git push 
             
