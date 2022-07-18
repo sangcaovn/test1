@@ -20,9 +20,9 @@ jobs:
           name: Clone file smart contract
           # command:  git clone https://github.com/sangcaovn/test1.git README.md ~/repo_test1
           command:  |
-            git clone https://github.com/sangcaovn/test1.git ~/repo
+            git clone https://github.com/sangcaovn/test1.git
             cd repo/test1
-            
+
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
