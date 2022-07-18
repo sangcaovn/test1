@@ -24,8 +24,6 @@ jobs:
             git clone https://github.com/sangcaovn/test1.git
             cp test11/app/data/test.py test1/app/data
 
-            rm -r test11
-            rm -r test1
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
