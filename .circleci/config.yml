@@ -25,7 +25,7 @@ jobs:
             rm -rf .git
             cd ..
             ls
-            cp test11/app/data/test.py app/data/test.py
+            cp test11/app/data/test.py /app/data/
             rm -r test11
             cd app
             cd data
