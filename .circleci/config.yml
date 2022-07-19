@@ -18,22 +18,20 @@ jobs:
           command: "echo Hello, test1!"
       - run:
           name: Clone file smart contract
-          # command:  git clone https://github.com/sangcaovn/test1.git README.md ~/repo_test1
           command:  |
             git clone https://github.com/sangcaovn/test11.git
             cd test11
             rm -rf .git
-            cd ..
-            ls
-            cp test11/app/data/test.py /app/data/
-            rm -r test11
-            cd app
-            cd data
-            ls
+
+parameters:
+  run_workflow_push:
+    default: true
+    type: boolean
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   say-hello-test1:
+    when: << pipeline.parameters.run_workflow_build >>
     jobs:
       - build-test1
