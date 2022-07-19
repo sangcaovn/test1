@@ -25,7 +25,7 @@ jobs:
 
 
 parameters:
-  run_workflow_push:
+  run_workflow_build:
     default: true
     type: boolean
 
